@@ -1,0 +1,185 @@
+*{
+   margin:0;
+   padding: 0; 
+}
+.container{
+    background-color: rgb(225, 245, 169);
+}
+.navbar{
+    background-color: rgb(51, 47, 47);
+    font-family: sans-serif;
+
+}
+.navbar h4{
+    color: rgb(170, 217, 41);
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px 20px;
+    font-family: sans-serif;
+
+}
+nav ul li a{
+        color: rgb(170, 217, 41);
+        text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: white;
+}
+.home{
+    background-color: rgb(51, 47, 47);
+    display:flex;
+    justify-content:space-evenly;
+    margin:10px 10px;
+    
+}
+.hi{
+    margin: 180px;
+    color: rgb(170, 217, 41);
+    font-family: sans-serif;
+}
+.hi h5{
+    font-weight: lighter;
+}
+img{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    margin:100px 200px;
+    border:7px solid rgb(170, 217, 41);
+}
+.about{
+    background-color: rgb(51, 47, 47);
+    margin:10px 10px;
+    color: rgb(170, 217, 41);
+    text-align: center;
+    height:350px;
+    font-family: sans-serif;
+}
+
+/* h1{
+    margin:10px;
+} */
+.tap1{
+    display: flex;
+    justify-content: space-evenly;
+    margin:20px;
+}
+.tap2{
+    background-color: rgb(170, 217, 41);
+    color:black;
+    height:90px;
+    width:200px;
+    padding: 50px;
+    border-radius: 4%;
+    
+}
+.tap2 h4{
+    font-weight: lighter;
+}
+.project h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.pin{
+    display: flex;
+    justify-content: space-evenly;
+margin :20px;
+font-family: sans-serif;
+}
+.project1{
+    background-color: black;
+    color:rgb(170, 217, 41);
+    height:150px;
+    width:200px;
+    padding: 70px;
+    border-radius: 4%;
+}
+.project1 img{
+    height:150px;
+    width:200px;
+    border-radius: 2%;
+    border:2px;
+    margin:3px;
+}
+.contact{
+    background-color: black;
+    margin:10px 10px;
+    height:200px;
+    font-family: sans-serif;
+}
+.contact h1{
+    color:rgb(170, 217, 41);
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color:rgb(170, 217, 41);
+    background-color: aliceblue;
+  }
+  .tag{
+    
+    margin:20px  500px;
+    
+  }
+ 
+  @media screen and (max-width:600px)
+  {
+    nav{
+        height: 100px;
+        display: flex
+    }
+    img{
+        margin-left: 150%;
+        height:200px;
+        width:200px;
+    }
+    .hi{
+        display: block;
+    }
+    .tap1{
+        display:block;
+        margin:10px;
+        text-align: center;
+    }
+    .tap2{
+        height:100px;
+        width:200px;
+        margin-left:45% ;
+
+    }  
+    .about{
+        height:700px;
+    } 
+    .pin{
+        display: block;
+        margin:45%;
+    } 
+    .project1{
+        width:200px;
+    }
+    .tag{
+        display:flex;
+        margin:10px;
+    }
+
+}
+  
+
+
